@@ -123,7 +123,7 @@ class Program
         int input;
         while (true)
         {
-            Console.Write("Podaj wartosc (int): ");
+            Console.Write("podaj wartosc (int): ");
             if (int.TryParse(Console.ReadLine(), out input))
             {
                 if (carDictionary == null || carDictionary.ContainsKey(input))
@@ -149,6 +149,6 @@ class Program
         Console.WriteLine("4. Symuluj losowe uszkodzenia");
         Console.WriteLine("5. Zezlomuj samochod");
         Console.WriteLine("6. Wyjscie");
-        Console.Write("Wybierz opcje (1-6): ");
+        Console.Write("Wybierz opcje (1-6), ");
     }
 }

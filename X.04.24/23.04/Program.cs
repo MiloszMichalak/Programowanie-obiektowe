@@ -20,9 +20,11 @@ class Program
         Console.WriteLine($"Pojazd {car1.Brand} {vehicle.Model} {car1.StartEngine()}");
         Console.WriteLine($"Pojazd {car1.Brand} {vehicle.Model} {car1.StopEngine()}");
         Console.WriteLine();
-        Console.WriteLine(car1.GetInfo());
-        
+        car1.Refuel(5);
         car1.ChangeGear(5);
+        Console.WriteLine(car1.GetInfo());
+
+        Console.WriteLine();
 
         Car car2 = new Car("Toyota", "Supra", 200, 2.5, "V6", FuelType.Petrol, 6, true);
         Console.WriteLine(car2.GetInfo());

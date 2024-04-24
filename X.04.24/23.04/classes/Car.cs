@@ -76,7 +76,7 @@ public class Car : Vehicle
     public override string GetInfo()
     {
         return base.GetInfo() + "\n" +
-               $"Pojemnosc silnika: {EngineCapacity}" +
+               $"Pojemnosc silnika: {EngineCapacity}\n" +
                $"Rodzaj silnika: {EngineType}";
         
     }

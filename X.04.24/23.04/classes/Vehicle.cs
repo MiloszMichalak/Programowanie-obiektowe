@@ -28,7 +28,8 @@ public class Vehicle
     {
         return $"Pojazd {Brand} {Model} \n" +
                $"Predkosc maksymalna: {Speed} \n" +
-               $"Rodzaj paliwa: {FuelType}";
+               $"Rodzaj paliwa: {FuelType}\n" +
+               $"Paliwo w baku: {Fuel}";
     }
 
     public virtual string StartEngine()

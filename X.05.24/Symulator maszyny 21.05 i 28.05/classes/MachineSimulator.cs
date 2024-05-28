@@ -1,6 +1,6 @@
 namespace _21._05.classes;
 
-internal class MachineSimulator
+public class MachineSimulator
 {
     private List<Machine> Machines = new List<Machine>();
 
@@ -32,5 +32,26 @@ internal class MachineSimulator
             machine.Stop();
         }
     }
-    
+
+
+    public void DisplayAllMachines()
+    {
+        Console.WriteLine(string.Join(", ", Machines));
+    }
+
+    public void AddNewMachine(MachineTypeManager typeManager)
+    {
+        typeManager.DisplayMachineTypes();
+        Console.Write("Wybierz typ maszyny do dodania: ");
+        string machineType = Console.ReadLine();
+        if (typeManager.IsValidType(machineType))
+        {
+            Machine newMachine = MachineFactory.CreateMachine(machineType);
+            AddMachine(newMachine);
+        }
+        else
+        {
+            Console.WriteLine("Nieznany typ maszyny");
+        }
+    }
 }

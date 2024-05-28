@@ -4,32 +4,32 @@ namespace _21._05;
 
 public enum MachineType
 {
-    Excuvator,
+    Excavator,
     Crane,
     Bulldozer,
     Loader
 }
 
-
 class Program
 {
     static void Main(string[] args)
     {
-        Machine machine = new Machine("C2000", MachineType.Crane);
-        machine.Start();
 
-        Console.WriteLine();
-        
-        Excavator excavator = new Excavator("B265", MachineType.Excuvator);
-        excavator.Start();
-        excavator.Work();
-        excavator.Stop("Zatrzymanie bezpieczenstwa");
+        MachineSimulator machineSimulator = new MachineSimulator();
+        MachineTypeManager machineTypeManager = new MachineTypeManager();
+        MenuManager menuManager = new MenuManager();
 
-        Console.WriteLine();
-        
-        MachineSimulator simulator = new MachineSimulator();
-        simulator.AddMachine(machine);
-        simulator.AddMachine(excavator);
-        simulator.StartAll();
+        string userInput = "";
+
+        Excavator excavator = new Excavator("e-100", MachineType.Excavator);
+        machineSimulator.AddMachine(excavator);
+
+        do
+        {
+            menuManager.DisplayMenu();
+            Console.WriteLine("Wybierz opcja");
+            userInput = menuManager.GetUserInput();
+            menuManager.ExecuteActions(userInput, machineSimulator, machineTypeManager);
+        } while (userInput != "9");
     }
 }

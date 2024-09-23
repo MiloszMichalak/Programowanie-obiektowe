@@ -35,6 +35,23 @@ class Program
                     Console.WriteLine("Obwod kola wynosi: {0}", circle.CalculatePerimeter());
                     break;
                 case 3:
+                    float a, b, c;
+                    do
+                    {
+                        a = GetFloatFromUser("Podaj dlugosc boku A: ");
+                        b = GetFloatFromUser("Podaj dlugosc boku B: ");
+                        c = GetFloatFromUser("Podaj dlugosc boku C: ");
+                        if (!IsValidTriangle(a, b, c))
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Nieprawidlowe dlugosci bokow. Sprobuj ponownie");
+                            Console.ResetColor();
+                        }
+                    } while (!IsValidTriangle(a, b, c));
+                    
+                    Triangle triangle = new Triangle(a, b, c);
+                    Console.WriteLine("Powierzchnia trojkata: {0}", triangle.CalculateArea());
+                    Console.WriteLine("Obwod trojkata: {0}", triangle.CalculatePerimeter());
                     break;
                 case 4:
                     break;
@@ -47,6 +64,11 @@ class Program
                     break;
             }
         }
+    }
+
+    private static bool IsValidTriangle(float a, float b, float c)
+    {
+        return (a + b > c) && (b + c > a) && (a + c > b);
     }
 
     private static float GetFloatFromUser(string message)

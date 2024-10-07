@@ -8,11 +8,9 @@ public class Reader : Person
         BorrowedBooksList = new List<Book>();
     }
 
-    public void AddBook(Book book)
+    public void BorrowBook(Book book)
     {
         BorrowedBooksList.Add(book);
         Console.WriteLine($"Czytelnik {FirstName} {LastName} wypozyczyl ksiazke: {book.Title}");
     }
-    
-    
 }

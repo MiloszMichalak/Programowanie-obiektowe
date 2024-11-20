@@ -31,7 +31,7 @@ class Program
             animal.MakeSound();
             animal.Eat();
         });
-
+        
         // CZESC 2
 
         Console.WriteLine("\nSortowanie wedlug wlasciela");

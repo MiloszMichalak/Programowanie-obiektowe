@@ -29,7 +29,7 @@ class Program
             Console.WriteLine(book);
         }
         
-        var sortedByAuthor = books.OrderByDescending(b => b.author);
+        var sortedByAuthor = books.OrderByDescending(book => book.author);
         Console.WriteLine("\nPosortowane ksiazki wedlug autora malejaco");
         foreach (Book book in sortedByAuthor)
         {

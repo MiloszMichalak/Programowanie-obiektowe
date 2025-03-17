@@ -25,7 +25,7 @@ public class PasswordManager
         }
 
         string hashedPassword = HashPassword(password);
-        File.AppendAllText(_passwordFilePath, $"{username},{hashedPassword}");
+        File.AppendAllText(_passwordFilePath, $"{username},{hashedPassword},");
         Console.WriteLine($"Uzytkownik {username} zostal zapisany.");
     }
 

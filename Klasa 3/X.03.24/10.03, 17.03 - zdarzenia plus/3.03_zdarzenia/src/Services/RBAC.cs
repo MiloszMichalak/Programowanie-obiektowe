@@ -1,4 +1,7 @@
-namespace _3._03_zdarzenia;
+using _3._03_zdarzenia.Enum;
+using _3._03_zdarzenia.Models;
+
+namespace _3._03_zdarzenia.Services;
 
 // ROLE BASED ACCESS CONTROL
 public class RBAC

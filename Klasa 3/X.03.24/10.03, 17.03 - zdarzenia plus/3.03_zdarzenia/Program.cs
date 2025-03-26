@@ -1,4 +1,8 @@
-﻿namespace _3._03_zdarzenia;
+﻿using _3._03_zdarzenia.Enum;
+using _3._03_zdarzenia.Models;
+using _3._03_zdarzenia.Services;
+
+namespace _3._03_zdarzenia;
 
 class Program
 {

@@ -1,4 +1,4 @@
-namespace _3._03_zdarzenia.Services;
+namespace zdarzenia_1.Services;
 
 public class FileManager
 {
@@ -7,17 +7,17 @@ public class FileManager
         if (File.Exists(filePath))
         {
             var content = File.ReadAllText(filePath);
-            Console.WriteLine("Zawartosc pliku:\n {0}", content);
+            Console.WriteLine("Zawartość pliku:\n" + content);
         }
         else
         {
-            Console.WriteLine("Plik nie istnieje.");
+            Console.WriteLine("Plik nie istnieje");
         }
     }
 
     public static void WriteToFile(string filePath)
     {
-        Console.WriteLine("Podaj tekst do zapisania w pliku: ");
+        Console.Write("Podaj tekst do zapisania w pliku: ");
         var text = Console.ReadLine();
         File.WriteAllText(filePath, text);
         Console.WriteLine("Zapisano do pliku");
@@ -27,25 +27,24 @@ public class FileManager
     {
         if (File.Exists(filePath))
         {
-            Console.WriteLine("Podaj tekst, ktory bedzie dopisany do pliku");
+            Console.Write("Podaj tekst, który będzie dopisany do pliku");
             var text = Console.ReadLine();
             File.AppendAllText(filePath, Environment.NewLine + text);
+            Console.WriteLine("Zmodyfikowano plik");
         }
         else
         {
-            Console.WriteLine("Plik nie istnieje.");
+            Console.WriteLine("Plik nie istnieje");
         }
     }
 
     public static void AddNewUser()
     {
-        Console.WriteLine("Podaj nazwe użytkownika: ");
-        var username = Console.ReadLine();
-
-        Console.WriteLine("Podaj haslo uzytkownika: ");
-        var password = Console.ReadLine();
-        
-        PasswordManager.SavePassword(username, password);
-        Console.WriteLine("Dodano nowego uzytkownika");
+        Console.Write("Podaj nazwę użytkownika: ");
+        var newUsername = Console.ReadLine();
+        Console.Write("Podaj hasło użytkownika: ");
+        var newPassword = Console.ReadLine();
+        PasswordManager.SavePassword(newUsername, newPassword);
+        Console.WriteLine($"Dodano nowego użytkownika: {newUsername}");
     }
 }

@@ -1,4 +1,6 @@
-namespace _3._03_zdarzenia;
+using _3._03_zdarzenia.Enum;
+
+namespace _3._03_zdarzenia.Models;
 
 // public User(string username)
 // {

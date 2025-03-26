@@ -1,4 +1,4 @@
-namespace _3._03_zdarzenia.Enum;
+namespace zdarzenia_1.Enums;
 
 public enum Permission
 {

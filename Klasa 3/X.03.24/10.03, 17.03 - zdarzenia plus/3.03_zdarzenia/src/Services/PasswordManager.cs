@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace _3._03_zdarzenia;
+namespace _3._03_zdarzenia.Services;
 
 public class PasswordManager
 {

@@ -1,0 +1,15 @@
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\bin\Debug\net9.0\Zadanie.exe
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\bin\Debug\net9.0\Zadanie.deps.json
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\bin\Debug\net9.0\Zadanie.runtimeconfig.json
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\bin\Debug\net9.0\Zadanie.dll
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\bin\Debug\net9.0\Zadanie.pdb
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.AssemblyInfoInputs.cache
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.AssemblyInfo.cs
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.sourcelink.json
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.dll
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\refint\Zadanie.dll
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.pdb
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\Zadanie.genruntimeconfig.cache
+C:\Users\Meleko\Nextcloud7\Wewnetrzny\Szkola\Repos\Programowanie obiektowe\Klasa 4\X.09.25\25.09\Zadanie\obj\Debug\net9.0\ref\Zadanie.dll
